@@ -1,0 +1,80 @@
+#calculator {
+    width: 320px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+#title {
+    display: table;
+    color: white;
+    height: 40px;
+}
+
+#illinois-logo {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+#illinois-logo img {
+    height: 20px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#illinois-text {
+    padding-left: 5px;
+    display: table-cell;
+    vertical-align: middle;
+    font-variant: small-caps;
+}
+
+#display {
+    height: 50px;
+    line-height: 50px;
+    font-size: 36px;
+    font-family: sans-serif;
+    text-align: right;
+    background-color: #a0ac96;
+    color: black;
+    border: 3px solid white;
+    margin: 4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+#display-text {
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 3px solid white;
+    margin: 4px;
+    padding: 6px;
+}
+
+.button {
+    height: 40px;
+    margin: 6px;
+    width: auto;
+    border: none;
+    font-size: 24px;
+}
+
+.number-button {
+    background-color: #DDDDDD;
+}
+
+.oper-button {
+    background-color: #FFDD33;
+}
+
+.clear-button {
+    background-color: #999999;
+}
